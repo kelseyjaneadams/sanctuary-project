@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     font-family: 'Mulish', sans-serif;
+    color:#28282B;
 }
 
 /* Header */
@@ -38,6 +39,21 @@ h1 {
     letter-spacing: 15px;
     font-weight: 500;
     color:#28282B;
+}
+
+#menu {
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #28282B;
 }
 
 /* Main Content */
