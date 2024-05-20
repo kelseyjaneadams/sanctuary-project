@@ -125,16 +125,20 @@ footer {
     }
 
     h1 {
+        /* Make logo smaller so navbar pages can be seen */
         font-size: 1.5rem; 
         letter-spacing: 9px;
+        /* Make the logo more centered vertically */
         padding-top: 10px
     }
 
     .nav-toggle-label {
         display: none;
     }
-
+    
+    /* Main Content */
     main {
+        /* Push main content down to accomodate the logo padding */
         margin-top: 47px;
     }
 }
