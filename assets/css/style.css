@@ -102,3 +102,39 @@ footer {
         font-size: 1.5rem; /* Adjusted font size for very small phones */
         letter-spacing: 9px;
     }
+}
+
+/* Media query: tablets and lager (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        box-shadow: none;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 1.5rem; 
+        letter-spacing: 9px;
+        padding-top: 10px
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    main {
+        margin-top: 47px;
+    }
+}
