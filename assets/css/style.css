@@ -95,3 +95,10 @@ main {
 footer {
     background-color: darkkhaki;
 }
+
+/* Media query for very small screens */
+@media (max-width: 320px) {
+    h1 {
+        font-size: 1.5rem; /* Adjusted font size for very small phones */
+        letter-spacing: 9px;
+    }
