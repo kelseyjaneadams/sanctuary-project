@@ -13,12 +13,18 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* Generic project styles */
     font-family: 'Mulish', sans-serif;
 }
 
 /* Header */
 header { 
-    background-color: antiquewhite;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 5px #28282B
 }
 
 h1 {
