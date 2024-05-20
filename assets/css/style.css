@@ -126,7 +126,7 @@ footer {
 
     h1 {
         /* Make logo smaller so navbar pages can be seen */
-        font-size: 1.5rem; 
+        font-size: 1.8rem; 
         letter-spacing: 9px;
         /* Make the logo more centered vertically */
         padding-top: 10px
@@ -139,7 +139,7 @@ footer {
     /* Main Content */
     main {
         /* Push main content down to accomodate the logo padding */
-        margin-top: 47px;
+        margin-top: 51px;
     }
 }
 
@@ -147,5 +147,12 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #28282B;
+    }
+
+    h1 {
+        font-size: 1.8rem; 
+        letter-spacing: 9px;
+        /* Make the logo more centered vertically */
+        padding-top: 10px
     }
 }
