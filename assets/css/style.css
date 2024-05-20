@@ -89,6 +89,7 @@ main {
     background-color: burlywood;
     /* Make main element push the footer down by taking up any surplus space */
     flex: 1 0 auto;
+    margin-top: 40px;
 }
 /* Footer */
 footer {
