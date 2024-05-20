@@ -20,6 +20,11 @@ body {
 header { 
     background-color: antiquewhite;
 }
+
+h1 {
+    font-family:'Mukta-Vaani', sans-serif;
+}
+
 /* Main Content */
 main {
     background-color: burlywood;
