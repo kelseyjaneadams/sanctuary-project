@@ -68,6 +68,20 @@ nav {
     box-shadow: 0 2px 2px #28282B;
     left: 0;
     display: none;
+    top: 100%;
+}
+
+/* Nav Toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main Content */
