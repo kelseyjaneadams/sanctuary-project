@@ -27,8 +27,17 @@ header {
     box-shadow: 0 2px 5px #28282B
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family:'Mukta-Vaani', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-weight: 500;
+    color:#28282B;
 }
 
 /* Main Content */
