@@ -91,10 +91,13 @@ main {
     flex: 1 0 auto;
     margin-top: 40px;
 }
+
 /* Footer */
 footer {
     background-color: darkkhaki;
+
 }
+
 
 /* Media query for very small screens */
 @media (max-width: 320px) {
