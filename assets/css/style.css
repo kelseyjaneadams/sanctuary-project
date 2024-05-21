@@ -94,8 +94,22 @@ main {
 
 /* Footer */
 footer {
-    background-color: darkkhaki;
+    background-color: #869096;
+}
 
+#social-networks {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+#social-networks i {
+    font-size: 100%;
+    color: #28282B;
+    padding-right: 5%;
 }
 
 
