@@ -97,6 +97,13 @@ footer {
     background-color: #869096;
 }
 
+footer h3 {
+    font-family: 'Mulish', sans-serif;
+    color:#28282B;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px;
