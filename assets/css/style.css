@@ -267,6 +267,26 @@ footer h3 {
         /* Push main content down to accomodate the logo padding */
         margin-top: 51px;
     }
+
+    /* Benefits section */
+    #benefits {
+        flex-direction: unset;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .benefits-left {
+        width: 50%;
+    }
+
+    .benefits-right {
+        width: 50%;
+    }
+
+    #benefits ul li {
+        text-align: start;
+        padding-bottom: 15px;
+        padding-left: 80px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
