@@ -157,6 +157,18 @@ main {
     position: relative;
 }
 
+/* Welcome section */
+#welcome {
+    background-color: rgba(49, 67, 47, 0.72);
+    color:#ffffff;
+    font-weight: 300;
+}
+
+#welcome div {
+    text-align: center;
+    padding: 15px;
+}
+
 /* Footer */
 footer {
     background-color: #869096;
