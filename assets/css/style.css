@@ -185,12 +185,6 @@ footer h3 {
     padding-right: 5%;
 }
 
-/* Media query for very small screens */
-@media (min-width: 320px) {
-    h1 {
-        letter-spacing: 7px;
-    }
-}
 
 /* Media query: tablets and lager (768px and up) */
 @media screen and (min-width: 768px) {
