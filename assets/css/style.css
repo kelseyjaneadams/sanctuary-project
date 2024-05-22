@@ -114,13 +114,47 @@ main {
     left: 5%;
     width: 90%;
     min-height: 70px;
-    padding: 10px;
+    padding: 20px;
 }
 
 #cover-text > h2 {
     color: #ffffff;
     display: flex;
     justify-content: center;
+    font-size: larger;
+    text-align: center;
+
+}
+
+/* Benefits Section */
+#benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+#benefits div {
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+#benefits ul {
+    padding: 20px;
+}
+
+#benefits ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.benefits-image {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 45px;
+    position: relative;
 }
 
 /* Footer */
@@ -184,11 +218,15 @@ footer h3 {
     padding-right: 5%;
 }
 
-/* Media query: ammend the logo size to accomodate smaller phone screens */
+/* Media query:phone screens (390px and down) */
 @media screen and (max-width: 390px) {
     #logo {
         letter-spacing: 6.5px;
         font-size: 25px;
+    }
+
+    #cover-text > h2 {
+        font-size:large;
     }
 }
 
