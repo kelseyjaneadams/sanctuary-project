@@ -169,6 +169,18 @@ main {
     color:#ffffff;
     font-weight: 300;
 }
+
+/* Testimonial section */
+
+#testimonial {
+    padding: 40px;
+    display: flex;
+}
+
+.vogue-image {
+    max-width: 60%;
+}
+
 /* Footer */
 footer {
     background-color: #869096;
