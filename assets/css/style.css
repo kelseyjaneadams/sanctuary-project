@@ -343,18 +343,21 @@ footer h3 {
     }
 
     #benefits ul li {
-        text-align: start;
+        text-align: center;
         padding-bottom: 15px;
-        padding-left: 80px;
+    
     }
 
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+   /* Nav section */
     #menu a:hover {
         border-bottom: 1px solid #28282B;
     }
+
+    /*Testimonial section */
     #testimonial {
         flex-direction: column;
         text-align: center;
@@ -367,6 +370,15 @@ footer h3 {
     .vogue-image {
         max-width: 400px; 
     }    
+
+    /* Benefits section */
+    #benefits .benefits-left h3 {
+        font-size: x-large;
+    }
+
+    #benefits .benefits-left ul {
+        font-size: x-large;
+    }
 }
 
 @media screen and (min-width: 1134px) {
