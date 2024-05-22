@@ -18,6 +18,20 @@ body {
     color:#28282B;
 }
 
+h1 {
+    font-family:'Mukta-Vaani', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-weight: 500;
+    color:#28282B;
+}
+
+h2 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
 /* Header */
 header { 
     background-color: #ffffff;
@@ -34,14 +48,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family:'Mukta-Vaani', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 15px;
-    font-weight: 500;
-    color:#28282B;
 }
 
 #menu {
@@ -96,6 +102,26 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(166, 161, 126, .7);
+    font-size: 110%;
+    position: absolute;
+    align-items: center;
+    bottom: 20px;
+    left: 5%;
+    width: 90%;
+    min-height: 70px;
+    padding: 10px;
+}
+
+#cover-text > h2 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    
 }
 
 /* Footer */
