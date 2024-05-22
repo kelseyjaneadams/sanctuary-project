@@ -173,12 +173,41 @@ main {
 /* Testimonial section */
 
 #testimonial {
-    padding: 40px;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.test-left, .test-right {
+    flex: 1 1 50%;
+    padding: 10px;
+}
+
+.test-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .vogue-image {
-    max-width: 60%;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    height: auto;
+}
+
+.test-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.test-right p {
+    max-width: 600px;
+    font-size: larger;
+    font-style: italic;
 }
 
 /* Footer */
@@ -254,6 +283,13 @@ footer h3 {
     }
 }
 
+@media screen and (max-width: 768px) {
+    /* Testimonial section */
+    .vogue-image {
+        max-width: 60%;
+    }
+}
+
 /* Media query: tablets and lager (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -311,11 +347,36 @@ footer h3 {
         padding-bottom: 15px;
         padding-left: 80px;
     }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #28282B;
+    }
+}
+
+/* Larger desktop devices */
+@media screen and (max-width: 1133px) {
+    #testimonial {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .test-left, .test-right {
+        flex: 1 1 100%;
+    }
+
+    .vogue-image {
+        max-width: 80%; /* Adjust image size to be responsive */
+    }    
+}
+
+
+@media screen and (min-width: 1134px) {
+    /* Ensuring image size on larger screens */
+    .vogue-image {
+        max-width: 400px;
     }
 }
