@@ -121,7 +121,6 @@ main {
     color: #ffffff;
     display: flex;
     justify-content: center;
-    
 }
 
 /* Footer */
@@ -185,6 +184,13 @@ footer h3 {
     padding-right: 5%;
 }
 
+/* Media query: ammend the logo size to accomodate smaller phone screens */
+@media screen and (max-width: 390px) {
+    #logo {
+        letter-spacing: 6.5px;
+        font-size: 25px;
+    }
+}
 
 /* Media query: tablets and lager (768px and up) */
 @media screen and (min-width: 768px) {
