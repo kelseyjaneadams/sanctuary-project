@@ -325,6 +325,18 @@ footer h3 {
     .vogue-image {
         max-width: 60%;
     }
+
+    /* About section */
+    #about > div {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #about > div img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
 }
 
 /* Media query: tablets and lager (768px and up) */
