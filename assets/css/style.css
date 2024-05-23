@@ -332,16 +332,29 @@ main {
     padding: 20px 40px;
 }
 
+.video-wrapper {
+    padding: 20px 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .video-container {
-    padding: 20px 40px;
-    width: 80%;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
     margin: 0 auto;
 }
 
-video {
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100%;
+    border: 0;
 }
 
 /* Footer */
