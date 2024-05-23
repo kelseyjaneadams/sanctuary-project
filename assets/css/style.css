@@ -308,6 +308,19 @@ main {
     border: 0;
 }
 
+/* Yoga & Meditation section */
+.enlightenment-quote {
+    background-color: rgba(49, 67, 47, 0.72);
+}
+.enlightenment-quote p {
+    font-size: 27px;
+    font-weight: 300;
+    padding: 20px 40px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
 /* Footer */
 footer {
     background-color: #869096;
