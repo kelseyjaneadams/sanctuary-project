@@ -210,6 +210,43 @@ main {
     font-style: italic;
 }
 
+/* About section */
+#about {
+    text-align: left;
+    padding: 30px;
+}
+
+#about h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:#28282B;
+}
+
+.about-main {
+    width: 100%;
+    max-width: 800px; /* Adjust based on your design */
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about > div {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about > div img {
+    width: calc(33.33% - 10px); 
+    height: auto;
+}
+
+
+
 /* Footer */
 footer {
     background-color: #869096;
@@ -374,6 +411,7 @@ footer h3 {
     /* Benefits section */
     #benefits .benefits-left h3 {
         font-size: x-large;
+        padding-top: 50px;
     }
 
     #benefits .benefits-left ul {
