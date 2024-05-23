@@ -214,9 +214,8 @@ main {
 #about {
     text-align: left;
     padding: 30px;
-    max-width: 1200px; /* Ensures the section has a maximum width */
-    margin: 0 auto; /* Centers the section */
-    box-sizing: border-box; /* Includes padding in the total width */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 #about h3 {
@@ -226,7 +225,7 @@ main {
 
 .about-main {
     width: 100%;
-    max-width: 800px; /* Adjust based on your design */
+    max-width: 800px; 
     height: auto;
     margin-bottom: 20px;
     display: block;
@@ -236,12 +235,12 @@ main {
 
 #about > div {
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    flex-wrap: wrap; 
     justify-content: center;
     gap: 10px; 
     width: 100%;
-    max-width: 800px; /* Limits the width to maintain layout */
-    margin: 0 auto; /* Centers the div */
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 #about > div img {
@@ -266,9 +265,9 @@ main {
 #find-us {
     text-align: left;
     padding: 30px;
-    max-width: 1200px; /* Ensures the section has a maximum width */
-    margin: 0 auto; /* Centers the section */
-    box-sizing: border-box; /* Includes padding in the total width */
+    max-width: 1200px; 
+    margin: 0 auto;
+    box-sizing: border-box; 
 }
 
 #find-us h3 {
@@ -418,6 +417,11 @@ footer h3 {
         width: 100%;
         max-width: 100%;
     }
+
+     /* Yoga & Meditation section */
+     .yoga-types {
+        flex-wrap: wrap;
+    }
 }
 
 /* Media query: tablets and lager (768px and up) */
@@ -498,7 +502,6 @@ footer h3 {
     .yoga-types {
         flex-wrap: nowrap;
     }
-
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -542,8 +545,14 @@ footer h3 {
     .address {
         padding: 15px 15%;
     }
+
+     /* Yoga & Meditation section */
+     .yoga-types {
+        flex-wrap: nowrap;
+    }
 }
 
+/* Very large screens */
 @media screen and (min-width: 1134px) {
     /* Ensuring image size on larger screens */
     .vogue-image {
