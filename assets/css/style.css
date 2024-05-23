@@ -219,7 +219,6 @@ main {
 #about h3 {
     margin-bottom: 20px;
     font-size: 24px;
-    color:#28282B;
 }
 
 .about-main {
@@ -249,13 +248,57 @@ main {
     text-align: center;
     padding: 15px;
     background-color: rgba(49, 67, 47, 0.72);
-    
 }
 
 .about-text p {
     color:#ffffff;
     font-weight: 300;
 }
+
+/* Map container */
+#find-us {
+    text-align: left;
+    padding: 20px 5%;
+}
+
+#find-us h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.address {
+    text-align: center;
+    padding: 15px 5%;
+}
+
+.map-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(166, 161, 126, .7);
+    margin: 0 auto;
+    padding-bottom: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.map-container {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
 
 /* Footer */
 footer {
@@ -407,6 +450,17 @@ footer h3 {
     
     }
 
+    /* Map section */
+    .map-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10%;
+    }
+
+    .address {
+        padding: 15px 10%;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -439,6 +493,7 @@ footer h3 {
     #benefits .benefits-left ul {
         font-size: x-large;
     }
+
 }
 
 @media screen and (min-width: 1134px) {
