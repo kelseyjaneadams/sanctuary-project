@@ -245,7 +245,17 @@ main {
     height: auto;
 }
 
+.about-text {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(49, 67, 47, 0.72);
+    
+}
 
+.about-text p {
+    color:#ffffff;
+    font-weight: 300;
+}
 
 /* Footer */
 footer {
