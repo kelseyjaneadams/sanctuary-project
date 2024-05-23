@@ -328,6 +328,22 @@ main {
     flex-wrap: wrap;
 }
 
+#yoga-meditation div h3 {
+    padding: 20px 40px;
+}
+
+.video-container {
+    padding: 20px 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Footer */
 footer {
     background-color: #869096;
