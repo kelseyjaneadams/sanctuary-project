@@ -312,13 +312,21 @@ main {
 .enlightenment-quote {
     background-color: rgba(49, 67, 47, 0.72);
 }
+
 .enlightenment-quote p {
     font-size: 27px;
     font-weight: 300;
     padding: 20px 40px;
     color: #ffffff;
     text-align: center;
+}
 
+.yoga-types {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 40px;
+    gap: 60px;
+    flex-wrap: wrap;
 }
 
 /* Footer */
@@ -486,6 +494,10 @@ footer h3 {
         padding: 15px 10%;
     }
 
+    /* Yoga & Meditation section */
+    .yoga-types {
+        flex-wrap: nowrap;
+    }
 
 }
 
