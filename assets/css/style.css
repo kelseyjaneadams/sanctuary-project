@@ -15,15 +15,15 @@ body {
     flex-direction: column;
     /* Generic project styles */
     font-family: 'Mulish', sans-serif;
-    color:#28282B;
+    color: #28282B;
 }
 
 h1 {
-    font-family:'Mukta-Vaani', sans-serif;
+    font-family: 'Mukta-Vaani', sans-serif;
     text-transform: uppercase;
     letter-spacing: 15px;
     font-weight: 500;
-    color:#28282B;
+    color: #28282B;
 }
 
 h2 {
@@ -33,7 +33,7 @@ h2 {
 }
 
 /* Header */
-header { 
+header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
@@ -57,7 +57,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -117,7 +117,7 @@ main {
     padding: 20px;
 }
 
-#cover-text > h2 {
+#cover-text>h2 {
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -138,7 +138,7 @@ main {
 #benefits div {
     flex-direction: column;
     flex-wrap: wrap;
-    
+
 }
 
 #benefits ul {
@@ -170,12 +170,12 @@ main {
     padding: 20px;
     background-color: rgba(49, 67, 47, 0.72);
     width: 90%;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
 #welcome div p {
-    color:#ffffff;
+    color: #ffffff;
     font-weight: 300;
     width: 100%;
     display: flex;
@@ -190,7 +190,8 @@ main {
     padding: 20px;
 }
 
-.test-left, .test-right {
+.test-left,
+.test-right {
     flex: 1 1 50%;
     padding: 10px;
 }
@@ -222,8 +223,8 @@ main {
 #about {
     text-align: left;
     padding: 30px;
-    max-width: 1200px; 
-    margin: 0 auto; 
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #about h3 {
@@ -233,7 +234,7 @@ main {
 
 .about-main {
     width: 100%;
-    max-width: 800px; 
+    max-width: 800px;
     height: auto;
     margin-bottom: 20px;
     display: block;
@@ -241,18 +242,18 @@ main {
     margin-right: auto;
 }
 
-#about > div {
+#about>div {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 10px; 
+    gap: 10px;
     width: 100%;
-    max-width: 800px; 
-    margin: 0 auto; 
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-#about > div img {
-    width: calc(33.33% - 10px); 
+#about>div img {
+    width: calc(33.33% - 10px);
     height: auto;
 }
 
@@ -261,7 +262,8 @@ main {
     padding: 15px;
     background-color: rgba(49, 67, 47, 0.72);
     margin: 0 auto;
-    max-width: 800px; /* Ensure the text section aligns with the images */
+    max-width: 800px;
+    /* Ensure the text section aligns with the images */
 }
 
 .about-text p {
@@ -273,9 +275,9 @@ main {
 #find-us {
     text-align: left;
     padding: 30px;
-    max-width: 1200px; 
+    max-width: 1200px;
     margin: 0 auto;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 #find-us h3 {
@@ -302,7 +304,8 @@ main {
 .map-container {
     width: 100%;
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
     height: 0;
 }
 
@@ -341,7 +344,7 @@ main {
 }
 
 .video-wrapper {
-    padding: 20px 40px; 
+    padding: 20px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -370,10 +373,10 @@ footer {
     background-color: #869096;
 }
 
-/* Newsletter form */ 
+/* Newsletter form */
 footer h3 {
     font-family: 'Mulish', sans-serif;
-    color:#28282B;
+    color: #28282B;
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 13px;
@@ -392,7 +395,7 @@ footer h3 {
     background-color: #ffffff;
     font-family: 'Mulish', sans-serif;
     font-size: 12px;
-    color:#28282B;
+    color: #28282B;
     text-transform: uppercase;
     font-weight: 500;
     border: none;
@@ -407,7 +410,7 @@ footer h3 {
 
 .newsletter-form input[type="email"] {
     font-family: 'Mulish', sans-serif;
-    color:#28282B;
+    color: #28282B;
     font-weight: 300;
 }
 
@@ -433,31 +436,33 @@ footer h3 {
         font-size: 25px;
     }
 
-    #cover-text > h2 {
-        font-size:large;
+    #cover-text>h2 {
+        font-size: large;
     }
 }
 
 @media screen and (max-width: 768px) {
+
     /* About section */
-    #about > div {
+    #about>div {
         flex-direction: column;
         gap: 10px;
     }
 
-    #about > div img {
+    #about>div img {
         width: 100%;
         max-width: 100%;
     }
 
-     /* Yoga & Meditation section */
-     .yoga-types {
+    /* Yoga & Meditation section */
+    .yoga-types {
         flex-wrap: wrap;
     }
 }
 
 /* Media query: tablets and lager (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -471,14 +476,14 @@ footer h3 {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
         font-size: 12px;
     }
 
     h1 {
         /* Make logo smaller so navbar pages can be seen */
-        font-size: 1.8rem; 
+        font-size: 1.8rem;
         letter-spacing: 9px;
         /* Make the logo more centered vertically */
         padding-top: 10px
@@ -487,7 +492,7 @@ footer h3 {
     .nav-toggle-label {
         display: none;
     }
-    
+
     /* Main Content */
     main {
         /* Push main content down to accomodate the logo padding */
@@ -500,6 +505,7 @@ footer h3 {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+
     .benefits-left {
         width: 50%;
     }
@@ -511,15 +517,14 @@ footer h3 {
     #benefits ul li {
         text-align: center;
         padding-bottom: 15px;
-    
     }
 
     /* Map section */
-    #about > div {
+    #about>div {
         flex-direction: row;
-        flex-wrap: nowrap; 
+        flex-wrap: nowrap;
     }
-    
+
     .map-content {
         flex-direction: column;
         align-items: center;
@@ -529,27 +534,24 @@ footer h3 {
     .address {
         padding: 15px 10%;
     }
-
-    /* Yoga & Meditation section */
-    .yoga-types {
-        flex-wrap: nowrap;
-    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-   /* Nav section */
+
+    /* Nav section */
     #menu a:hover {
         border-bottom: 1px solid #28282B;
     }
-    
-    .test-left, .test-right {
+
+    .test-left,
+    .test-right {
         flex: 1 1 100%;
     }
 
     .vogue-image {
-        max-width: 400px; 
-    }    
+        max-width: 400px;
+    }
 
     /* Benefits section */
     #benefits .benefits-left h3 {
@@ -572,8 +574,16 @@ footer h3 {
         padding: 15px 15%;
     }
 
-     /* Yoga & Meditation section */
-     .yoga-types {
+    /* Yoga & Meditation section */
+    .yoga-types {
+        flex-wrap: nowrap;
+    }
+}
+
+/* Larger desktop screens */
+@media screen and (min-width: 1200px){
+    /* Yoga & Meditation section */
+    .yoga-types {
         flex-wrap: nowrap;
     }
 }
