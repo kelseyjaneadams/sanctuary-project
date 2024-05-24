@@ -26,12 +26,6 @@ h1 {
     color: #28282B;
 }
 
-h2 {
-    font-weight: 300;
-    letter-spacing: 1px;
-    font-style: italic;
-}
-
 /* Header */
 header {
     background-color: #ffffff;
@@ -97,6 +91,8 @@ main {
     margin-top: 40px;
 }
 
+/* Home page */
+
 /* Hero section */
 #hero {
     height: 600px;
@@ -123,6 +119,9 @@ main {
     justify-content: center;
     font-size: larger;
     text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-style: italic;
 
 }
 
@@ -219,7 +218,7 @@ main {
     font-style: italic;
 }
 
-/* About section */
+/* About page */
 #about {
     text-align: left;
     padding: 30px;
@@ -318,7 +317,7 @@ main {
     border: 0;
 }
 
-/* Yoga & Meditation section */
+/* Yoga & Meditation page */
 .enlightenment-quote {
     background-color: rgba(49, 67, 47, 0.72);
 }
@@ -371,10 +370,38 @@ main {
     border: 0;
 }
 
+/* Workshops page */
+/* Why Us section */
+#why-us {
+    padding: 20px;
+}
+
+#why-us h2, #why-us h3{
+    margin-bottom: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.content-wrapper p {
+    flex: 1;
+    margin: 0;
+}
+
+.workshop-image {
+    flex: 1;
+    width: 50%;
+    height: auto;
+    border-radius: 30px;
+}
 
 
 /* Response page */
-main {
+.response {
     text-align: center;
 }
 
@@ -441,6 +468,7 @@ footer h3 {
 
 /* Media query:phone screens (390px and down) */
 @media screen and (max-width: 390px) {
+    /* Home page */
     #logo {
         letter-spacing: 6.5px;
         font-size: 25px;
@@ -453,7 +481,7 @@ footer h3 {
 
 @media screen and (max-width: 768px) {
 
-    /* About section */
+    /* About page */
     #about>div {
         flex-direction: column;
         gap: 10px;
@@ -464,10 +492,18 @@ footer h3 {
         max-width: 100%;
     }
 
-    /* Yoga & Meditation section */
+    /* Yoga & Meditation page */
     .yoga-types {
         flex-wrap: wrap;
     }
+
+    /* Workshop page */
+    /* Why us section */
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 /* Media query: tablets and lager (768px and up) */
@@ -508,7 +544,7 @@ footer h3 {
         /* Push main content down to accomodate the logo padding */
         margin-top: 51px;
     }
-
+    /* Home Page */
     /* Benefits section */
     #benefits {
         flex-direction: unset;
@@ -559,6 +595,7 @@ footer h3 {
         flex: 1 1 100%;
     }
 
+    /* Home page */
     .vogue-image {
         max-width: 400px;
     }
@@ -584,7 +621,7 @@ footer h3 {
         padding: 15px 15%;
     }
 
-    /* Yoga & Meditation section */
+    /* Yoga & Meditation page */
     .yoga-types {
         flex-wrap: nowrap;
     }
@@ -592,7 +629,7 @@ footer h3 {
 
 /* Larger desktop screens */
 @media screen and (min-width: 1200px){
-    /* Yoga & Meditation section */
+    /* Yoga & Meditation page */
     .yoga-types {
         flex-wrap: nowrap;
     }
