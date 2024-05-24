@@ -159,15 +159,27 @@ main {
 
 /* Welcome section */
 
+#welcome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 #welcome div {
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     background-color: rgba(49, 67, 47, 0.72);
+    width: 90%;
+    display:flex;
+    justify-content: center;
 }
 
 #welcome div p {
     color:#ffffff;
     font-weight: 300;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 /* Testimonial section */
