@@ -428,6 +428,15 @@ main {
     padding: 30px;
 }
 
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 
 /* Response page */
 .response {
