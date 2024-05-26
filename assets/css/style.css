@@ -429,12 +429,18 @@ main {
 }
 
 #gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     padding: 30px;
     max-width: 1600px;
     margin: 0 auto;
+}
+
+.gallery-images img {
+    width: 100%;
+    line-height: 1em;
+}
+
+.gallery-images {
+    line-height: 0;
 }
 
 
