@@ -220,10 +220,12 @@ main {
 
 /* About page */
 #about {
-    text-align: left;
     padding: 30px;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #about h3 {
@@ -233,7 +235,6 @@ main {
 
 .about-main {
     width: 100%;
-    max-width: 800px;
     height: auto;
     margin-bottom: 20px;
     display: block;
@@ -243,11 +244,9 @@ main {
 
 #about>div {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
     width: 100%;
-    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -261,8 +260,6 @@ main {
     padding: 15px;
     background-color: rgba(49, 67, 47, 0.72);
     margin: 0 auto;
-    max-width: 800px;
-    /* Ensure the text section aligns with the images */
 }
 
 .about-text p {
@@ -274,7 +271,7 @@ main {
 #find-us {
     text-align: left;
     padding: 30px;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -287,6 +284,7 @@ main {
 .address {
     text-align: center;
     padding: 15px 5%;
+    font-size: larger;
 }
 
 .map-content {
@@ -297,7 +295,6 @@ main {
     margin: 0 auto;
     padding-bottom: 40px;
     width: 100%;
-    max-width: 1200px;
 }
 
 .map-container {
@@ -544,6 +541,7 @@ footer h3 {
         /* Push main content down to accomodate the logo padding */
         margin-top: 51px;
     }
+
     /* Home Page */
     /* Benefits section */
     #benefits {
@@ -566,19 +564,15 @@ footer h3 {
     }
 
     /* Map section */
-    #about>div {
+    /*#about>div {
         flex-direction: row;
         flex-wrap: nowrap;
-    }
+    }*/
 
     .map-content {
         flex-direction: column;
         align-items: center;
         padding: 20px 10%;
-    }
-
-    .address {
-        padding: 15px 10%;
     }
 }
 
@@ -614,11 +608,7 @@ footer h3 {
     .map-content {
         flex-direction: column;
         align-items: center;
-        padding: 20px 15%;
-    }
-
-    .address {
-        padding: 15px 15%;
+        padding: 20px 5%;
     }
 
     /* Yoga & Meditation page */
