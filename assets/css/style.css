@@ -486,7 +486,6 @@ footer h3 {
 }
 
 @media screen and (max-width: 768px) {
-
     /* About page */
     #about>div {
         flex-direction: column;
@@ -585,7 +584,9 @@ footer h3 {
     }
 
     /* About section */
-    
+    .workshop-image {
+        width: 50%;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -635,6 +636,10 @@ footer h3 {
 
     .yoga-types {
         flex-wrap: nowrap;
+    }
+    /* Wokshop page */
+    .workshop-image {
+        max-width: 400px;
     }
 
 }
