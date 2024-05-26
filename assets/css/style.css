@@ -443,7 +443,6 @@ main {
     line-height: 0;
 }
 
-
 /* Response page */
 .response {
     text-align: center;
@@ -522,6 +521,14 @@ footer h3 {
         font-size: large;
     }
 }
+/* Media query: large or landscape phones (576px up) */
+@media screen and (min-width 576px;) {
+   /* Workshop page */
+    .gallery-images {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 @media screen and (max-width: 768px) {
     /* About page */
@@ -548,7 +555,6 @@ footer h3 {
 
 /* Media query: tablets and lager (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     nav {
         display: block;
@@ -617,6 +623,12 @@ footer h3 {
         align-items: center;
         padding: 20px 10%;
     }
+
+    /* Workshop page */
+    .gallery-images {
+        column-count: 3;
+        column-gap: 0;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -671,6 +683,11 @@ footer h3 {
     /* Workshops page */
     .workshops div {
         width: 48%;
+    }
+
+    .gallery-images {
+        column-count: 4;
+        column-gap: 0;
     }
 
 }
