@@ -443,6 +443,48 @@ main {
     line-height: 0;
 }
 
+/* Register page */
+#register { 
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#register>h2 {
+    margin-bottom: 20px;
+}
+
+#register-form {
+    background-color: #a6a17ec4;
+    padding: 30px;
+}
+
+#register-form>p {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: #fafafa;
+    color: #28282B; 
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #28282B;
+    border-radius: 2px;   
+    padding: 0 5px;
+}
+
+.register-button {
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #31432fbf;
+    color: #fafafa;
+
+}
+
 /* Response page */
 .response {
     text-align: center;
@@ -522,7 +564,7 @@ footer h3 {
     }
 }
 /* Media query: large or landscape phones (576px up) */
-@media screen and (min-width 576px;) {
+@media screen and (min-width 576px) {
    /* Workshop page */
     .gallery-images {
         column-count: 2;
@@ -628,6 +670,20 @@ footer h3 {
     .gallery-images {
         column-count: 3;
         column-gap: 0;
+    }
+
+    /* Register page */
+    #register {
+        max-width: 900px;
+        margin: auto
+    }
+    .text-input:hover {
+        border-color: #c6f9e2;
+    }
+    
+    .register-button:hover {
+        background-color: #31432f81;
+        color: #28282B;
     }
 }
 

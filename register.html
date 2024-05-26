@@ -41,34 +41,40 @@
 
     <!-- Main Content -->
     <main>
-        <section id="register" method="GET" action="">
+        <section id="register">
             <h2>Find Out More</h2>
-            <p>Are you ready to take the next step on your spiritual journey with us? Please register your interest by
-                filling out your details below.</p>
-            <label for="first-name">First Name</label>
-            <input type="text" name="first_name" id="first-name" class="text-input" required>
-            <br>
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last_name" id="last-name" class="text-input" required>
-            <br>
-            <label for="email-address">Email Address</label>
-            <input type="email" name="email_address" id="email-address" class="text-input" required>
-            <br>
-            <div class="radio-buttons">
-                <div><label for="elements">Bonding With The Elements</label>
-                    <input type="radio" name="elemental_yoga" id="elements" value="elements" required checked>
+            <form id="register-form" method="GET" action="">
+                <p>Are you ready to take the next step on your spiritual journey with us? Please register your interest
+                    by
+                    filling out your details below.</p>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div><label for="elements">Bonding With The Elements</label>
+                        <input type="radio" name="elemental_yoga" id="elements" value="elements" required checked>
+                    </div>
+                    <div><label for="moon">Moon Meditations</label>
+                        <input type="radio" name="moon_yoga" id="moon" value="moon" required>
+                    </div>
+                    <div><label for="">Sun Yoga</label>
+                        <input type="radio" name="sun_yoga" id="sun" value="sun" required>
+                    </div>
+                    <div><label for="mind">Intergrating Mind and Body</label>
+                        <input type="radio" name="mind_body" id="mind" value="mind" required>
+                    </div>
+                    <div><label for="all">All</label>
+                        <input type="radio" name="all_workshops" id="all" value="all" required>
+                    </div>
                 </div>
-                <div><label for="moon">Moon Meditations</label>
-                    <input type="radio" name="moon_yoga" id="moon" value="moon" required>
-                </div>
-                <div><label for="">Sun Yoga</label>
-                    <input type="radio" name="sun_yoga" id="sun" value="sun" required>
-                </div>
-                <div><label for="mind">Intergrating Mind and Body</label>
-                    <input type="radio" name="mind_body" id="mind" value="mind" required>
-                </div>
-            </div>
-            <button type="submit" class="register-button">Register</button>
+                <button type="submit" class="register-button">Register</button>
+            </form>
         </section>
     </main>
 
