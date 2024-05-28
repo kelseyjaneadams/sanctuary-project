@@ -1,3 +1,29 @@
+Sanctuary
+
+The Sanctuary website is a landing page for adults who are interested in finding traditional practices for their spiritual wellbeing.
+Sanctuary gives people the opportunity to attend workshops or retreats that intergrate asanas, pranayama
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Credits 
 https://www.experienceretreats.com/bali-retreat-center-ubud - Source for outdoor-workshop.webp, gallery-image-11.webp
 
 
