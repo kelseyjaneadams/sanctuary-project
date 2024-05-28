@@ -66,12 +66,16 @@ Users of this website will find all the necessary information about Sanctuary: d
 - The gallery provides users with a visual representation of the studio's environment, giving them a taste of what the workshop setups and retreats look like.
 - By including high-quality images of yoga sessions, meditation practices, and the serene surroundings, the gallery engages users and helps them visualise the unique setting and atmosphere of the studio.
 
+<img src="assets/images/workshop-gallery.png">
+
 #### Register Form 
 - The "Find Out More" section includes a registration form that allows users to express their interest in the workshops and retreats offered at the studio.
 - The form collects basic information such as the user's first name, last name, and email address, which are necessary for registration and follow-up communication.
 - Users can select their areas of interest from the available workshops: Bonding With The Elements, Moon Meditations, Sun Yoga, Integrating Mind and Body, or an option to select All. This helps tailor the information and follow-up to their specific interests.
 - The form is styled to match the overall aesthetic of the website, with a colour scheme that contrasts well with the background for readability.
 - The form features a prominent "Register" button, encouraging users to submit their details and engage with the studio's offerings.
+
+<img src="assets/images/register-form.png">
 
 
 include the response htmls and add what you would have liked for each feature
