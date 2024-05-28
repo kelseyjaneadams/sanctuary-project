@@ -16,7 +16,7 @@ Users of this website will find all the necessary information about Sanctuary: d
 
 <img src="assets/images/navbar.png">
 
-### The Header
+#### The Header
 
 - The header features a hero image of a Buddha meditating, visually indicating the website's focus.
 - The header includes a quote on yoga, reinforcing the website's theme.
@@ -24,14 +24,59 @@ Users of this website will find all the necessary information about Sanctuary: d
 
 <img src="assets/images/the-header.png">
 
-### The Testimonial Section
+#### The Testimonial Section
 
 - The testimonial section is designed to reinforce the studio's credibility.
 - It features a prominently displayed Vogue brand logo, followed by a quote from Vogue praising the studio.
 
 <img src="assets/images/testimonial-section.png">
 
-### The Footer
+#### About Us Gallery
+- The gallery feature in the "About Us" section provides a visual exposition of the studio and a glimpse into the setup of the workshops.
+- The main image depicts a lady meditating on a mandapam in the forest, highlighting the unique and serene setting of the studio.
+- Three smaller images underneath show the various locations where the workshops are conducted, giving prospective attendees a clear idea of the environment.
+
+<img src="assets/images/about-us-gallery.png">
+
+#### Find Us Map
+- The "Find Us" section includes an embedded map. This provides users with a visual representation of the studio's location, making it easier for them to find the studio.
+- The embedded map allows users to interact with it by zooming in, getting directions, and viewing streets. This provides all the necessary information without needing to leave the website.
+
+<img src="assets/images/map.png">
+
+#### Video
+
+- The Yoga & Meditation section includes an embedded video. This provides users with a visual and auditory introduction to what yoga is, making it more engaging.
+- The embedded video has autoplay turned off and is set to mute by default to give a better user experience.
+- The controls are available for the user to play, pause, and adjust the volume as needed, ensuring they have full control over their viewing experience.
+
+<img src="assets/images/video.png">
+
+#### Workshop Grid
+- The workshops section includes a visually appealing grid layout created using divs to demonstrate the different types of workshops offered at the studio.
+- The grid organises workshops into four distinct categories: Bonding with the Elements, Moon Meditations, Sun Yoga, and Integrating Mind and Body. This clear organisation helps users quickly find the type of workshop they are interested in.
+- Each category is represented by a coloured block with a descriptive title and a colour that contrasts with the background, making it easy for users to read, navigate, and understand the variety of workshops available.
+- Each block includes an unordered list of specific workshops under the category, giving users detailed information at a glance and immediate insight into what each workshop entails.
+
+
+<img src="assets/images/workshop-grid.png">
+
+#### Workshop Gallery
+- The Gallery section includes a visually appealing and immersive grid layout that showcases various images related to the workshops and retreats offered at the studio.
+- The gallery provides users with a visual representation of the studio's environment, giving them a taste of what the workshop setups and retreats look like.
+- By including high-quality images of yoga sessions, meditation practices, and the serene surroundings, the gallery engages users and helps them visualise the unique setting and atmosphere of the studio.
+
+#### Register Form 
+- The "Find Out More" section includes a registration form that allows users to express their interest in the workshops and retreats offered at the studio.
+- The form collects basic information such as the user's first name, last name, and email address, which are necessary for registration and follow-up communication.
+- Users can select their areas of interest from the available workshops: Bonding With The Elements, Moon Meditations, Sun Yoga, Integrating Mind and Body, or an option to select All. This helps tailor the information and follow-up to their specific interests.
+- The form is styled to match the overall aesthetic of the website, with a colour scheme that contrasts well with the background for readability.
+- The form features a prominent "Register" button, encouraging users to submit their details and engage with the studio's offerings.
+
+
+include the response htmls and add what you would have liked for each feature
+
+#### The Footer
 
 
 
