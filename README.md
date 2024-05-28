@@ -1,9 +1,37 @@
 # Sanctuary
+The Sanctuary website is a landing page designed for adults interested in traditional practices for their spiritual well-being. Sanctuary offers opportunities to attend workshops or retreats that integrate asanas, pranayama, and meditation as methods for enlightenment. These practices can be continued daily after the workshops.
 
-The Sanctuary website is a landing page for adults who are interested in finding traditional practices for their spiritual wellbeing.
-Sanctuary gives people the opportunity to attend workshops or retreats that intergrate asanas, pranayama and meditation as a method for enlightenmemtwhich can be practiced daily after the workshops.
+Users of this website will find all the necessary information about Sanctuary: details about the studio, its location, contact information, an introduction to the yoga tradition offered, and a registration form. This site is targeted toward individuals who want to take the next step in their spiritual journey.
 
-Users of this website will be able to find all the necessary information they need about Sanctuary: About the studio, its location, introduction to the tradition of yoga that is offered and a register 
+<img src="assets/images/readmeimage.png">
+
+## Features
+
+#### Navigation 
+- The navigation bar is featured at the top of the page with the yoga studio's name, SANCTUARY, located at the top left corner and linking to the home page.
+- The other navigation links are positioned on the right: Home, About, Yoga & Meditation, Workshops, and Register, all of which link to their respective HTML pages.
+- The navigation uses a font similar to the studio name and features colors that contrast with the background.
+- The navigation clearly displays the studio and website name, making it easy for users to find different pages of information. The currently selected page in the navigation is underlined, and pages also get underlined when hovered over.
+<br>
+
+<img src="assets/images/navbar.png">
+
+### The Header
+
+- The header features a hero image of a Buddha meditating, visually indicating the website's focus.
+- The header includes a quote on yoga, reinforcing the website's theme.
+- This section provides clear information about the studio and uses strong imagery to visualise its purpose.
+
+<img src="assets/images/the-header.png">
+
+### The Testimonial Section
+
+- The testimonial section is designed to reinforce the studio's credibility.
+- It features a prominently displayed Vogue brand logo, followed by a quote from Vogue praising the studio.
+
+<img src="assets/images/testimonial-section.png">
+
+### The Footer
 
 
 
@@ -20,12 +48,7 @@ Users of this website will be able to find all the necessary information they ne
 
 
 
-
-
-
-
-
-Credits 
+### Credits 
 https://www.experienceretreats.com/bali-retreat-center-ubud - Source for outdoor-workshop.webp, gallery-image-11.webp
 
 

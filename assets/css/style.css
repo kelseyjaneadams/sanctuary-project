@@ -396,6 +396,7 @@ main {
     gap: 30px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    color:#ffffff
 }
 
 .workshops ul {
@@ -485,7 +486,7 @@ main {
 
 }
 
-/* Response page */
+/* Response pages */
 .response {
     text-align: center;
 }
