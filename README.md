@@ -1,7 +1,9 @@
-Sanctuary
+# Sanctuary
 
 The Sanctuary website is a landing page for adults who are interested in finding traditional practices for their spiritual wellbeing.
-Sanctuary gives people the opportunity to attend workshops or retreats that intergrate asanas, pranayama
+Sanctuary gives people the opportunity to attend workshops or retreats that intergrate asanas, pranayama and meditation as a method for enlightenmemtwhich can be practiced daily after the workshops.
+
+Users of this website will be able to find all the necessary information they need about Sanctuary: About the studio, its location, introduction to the tradition of yoga that is offered and a register 
 
 
 
