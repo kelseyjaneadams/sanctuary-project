@@ -4,6 +4,8 @@ The Sanctuary website is a landing page designed for adults interested in tradit
 
 Users of this website will find all the necessary information about Sanctuary: details about the studio, its location, contact information, an introduction to the yoga tradition offered, and a registration form. This site is targeted toward individuals who want to take the next step in their spiritual journey.
 
+The site can be accessed via this [link.](https://kelseyjaneadams.github.io/sanctuary-project/)
+
 <img src="documentation/images/readmeimage.png">
 
 ## Features
