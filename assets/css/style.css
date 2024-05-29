@@ -497,7 +497,6 @@ main {
     margin-bottom: 20px;
 }
 
-
 /* Footer */
 footer {
     background-color: #869096;
@@ -661,12 +660,6 @@ footer h3 {
         text-align: center;
         padding-bottom: 15px;
     }
-
-    /* Map section */
-    /*#about>div {
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }*/
 
     .map-content {
         flex-direction: column;

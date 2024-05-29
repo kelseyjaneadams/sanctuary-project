@@ -82,9 +82,12 @@ Users of this website will find all the necessary information about Sanctuary: d
 
 ### Register Response Page
 
+- The "Register Response" page is used to provide users with confirmation that their registration details have been successfully submitted.
+- Upon submitting the registration form, users are redirected to this page, which opens in a new tab, reassuring them that their information has been received and is being processed.
+- The page maintains the overall aesthetic and design consistency of the website, with a clean and straightforward layout that aligns with the studio's branding.
+- The page informs users that a teacher will contact them shortly and they will receive an email with an information pack about the workshops and retreats they selected, providing immediate feedback and reducing any uncertainty about the registration process.
 
-
-include the response htmls and add what you would have liked for each feature
+<img src="documentation/images/register-response-page.png">
 
 #### The Footer
 
