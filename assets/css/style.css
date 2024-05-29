@@ -490,7 +490,13 @@ main {
 /* Response pages */
 .response {
     text-align: center;
+    padding: 40px;
 }
+
+.response h2 {
+    margin-bottom: 20px;
+}
+
 
 /* Footer */
 footer {
@@ -566,7 +572,7 @@ footer h3 {
     }
 }
 /* Media query: large or landscape phones (576px up) */
-@media screen and (min-width 576px) {
+@media screen and (min-width: 576px) {
    /* Workshop page */
     .gallery-images {
         column-count: 2;
