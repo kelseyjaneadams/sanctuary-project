@@ -91,6 +91,15 @@ Users of this website will find all the necessary information about Sanctuary: d
 
 #### The Footer
 
+- The footer section includes a "Subscribe To Our Weekly Newsletter" email input field, allowing users to enter their email address and sign up for weekly updates.
+- The footer contains social media icons linking to Instagram, Facebook, Twitter, and YouTube, providing easy access to the studio's social media pages.
+- Submit Button: When hovered over, the "Sign Up" button changes color to indicate interactivity, enhancing the user experience by providing visual feedback.
+-Social Media Icons: Each social media icon changes color when hovered over, highlighting the icons and encouraging users to click on them.
+
+<img src="documentation/images/footer.png">
+<img src="documentation/images/signup-hover-footer.png">
+<img src="documentation/images/social-media-icon-hover.png">
+
 
 
 
