@@ -558,6 +558,10 @@ footer h3 {
     padding-right: 5%;
 }
 
+#social-networks i:hover {
+    color: #fafafa
+}
+
 /* Media query:phone screens (390px and down) */
 @media screen and (max-width: 390px) {
     /* Home page */
