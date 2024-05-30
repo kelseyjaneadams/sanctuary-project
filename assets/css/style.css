@@ -26,6 +26,10 @@ h1 {
     color: #28282B;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
