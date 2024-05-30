@@ -8,6 +8,23 @@ The site can be accessed via this [link.](https://kelseyjaneadams.github.io/sanc
 
 <img src="documentation/images/readmeimage.png">
 
+## User Stories
+
+#### First Time Visitor Goals:
+- As a First Time Visitor, I want to easily understand the main purpose of the site, so I can learn more about the yoga studio and its offerings.
+- As a First Time Visitor, I want to be able to easily navigate through the website, so I can find information about the types of yoga classes and workshops available.
+- As a First Time Visitor, I want to see testimonials so I can gauge the quality and reputation of the studio.
+
+#### Returning Visitor Goals:
+- As a Returning Visitor, I want to see the different yoga classes and workshops being offered, so I can choose the ones that interest me.
+- As a Returning Visitor, I want to see detailed information about the yoga offered, so I can feel confident in their expertise and teaching style.
+- As a Returning Visitor, I want to find a way to get in contact with the studio, so I can ask additional questions or register for a class or workshop.
+- As a Returning Visitor, I want to find social media links, so I can learn more about the yoga community and events at the studio.
+
+#### Frequent Visitor Goals
+- As a Frequent Visitor, I want to check whether there are any new or updated yoga classes and workshops, so I can explore new options and enjoy a variety of classes.
+- As a Frequent Visitor, I want to have options for contacting the studio for specific reasons, such as class registration or feedback, so I can get an appropriate and timely response.
+
 ## Features
 
 #### Navigation 
@@ -18,6 +35,14 @@ The site can be accessed via this [link.](https://kelseyjaneadams.github.io/sanc
 <br>
 
 <img src="documentation/images/navbar.png">
+
+- On tablets and mobiles: The navigation bar maintains the logo on the left side but a hamburger menu is implemented.
+
+<img src="documentation/images/navbar-small.png">
+
+- When the hamburger menu is clicked, a dropdown menu appears with the links to the pages in the same order.
+
+<img src="documentation/images/navbar-dropdown.png">
 
 #### The Header
 
@@ -96,12 +121,45 @@ The site can be accessed via this [link.](https://kelseyjaneadams.github.io/sanc
 - The footer section includes a "Subscribe To Our Weekly Newsletter" email input field, allowing users to enter their email address and sign up for weekly updates.
 - The footer contains social media icons linking to Instagram, Facebook, Twitter, and YouTube, providing easy access to the studio's social media pages.
 - Submit Button: When hovered over, the "Sign Up" button changes color to indicate interactivity, enhancing the user experience by providing visual feedback.
--Social Media Icons: Each social media icon changes color when hovered over, highlighting the icons and encouraging users to click on them.
+- Social Media Icons: Each social media icon changes color when hovered over, highlighting the icons and encouraging users to click on them. Once an icon is clicked this opens a new tab that takes them to the social media page.
 
 <img src="documentation/images/footer.png">
 <img src="documentation/images/signup-hover-footer.png">
 <img src="documentation/images/social-media-icon-hover.png">
 
+
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items on the page and to make pages responsive.
+- [Figma](https://www.figma.com/) - was used to make wireframes for the website.
+- [VSCode](https://code.visualstudio.com/) - was used as the tool to write and edit code.
+- [Git](https://git-scm.com/) & [Gitpod](https://www.gitpod.io/) - was used for the version control of the website.
+- [GitHub](https://github.com/) - was used to host the code of the website. 
+- [CloudConvert](https://cloudconvert.com/webp-converter) - was used to convret all images on the site into webp.
+
+## Design
+
+<img src="documentation/images/colour-palette.png">
+
+- Cal Poly Green and Sage were used as the main colors for the Sanctuary yoga website, as they convey a sense of natural wellness, balance, and tranquility. This creates an inviting and peaceful atmosphere that aligns with the holistic and calming principles of yoga.
+- Olive, Battleship Gray, and White were chosen for the Sanctuary yoga website as they support a serene and grounded aesthetic. Olive conveys natural wellness and harmony, Battleship Gray adds a touch of stability and sophistication, and White enhances the feeling of openness and purity. Together, these colors create a balanced and calming environment that aligns with the holistic and tranquil principles of yoga.
+
+## Typograhpy
+
+<img src="documentation/images/mukta-vaani-500.png">
+
+- Mukta Vaani 500 was chosen for the Sanctuary logo with letter spacing to convey a modern and approachable feel. The clean, well-spaced typography enhances readability and reflects the studio's commitment to clarity and openness. This choice aligns with the sanctuary's values of accessibility and inclusivity, creating a welcoming and professional brand identity.
+
+<img src="documentation/images/mulish-light-300.png">
+
+- Mulish Light 300 was chosen as the main font for the Sanctuary website to create a clean, modern, and elegant aesthetic. Its light weight and sleek design enhance readability and provide a sense of calm and sophistication.
+
+<img src="documentation/images/mulish-light-italic-300.png">
+- Mulish Light 300 Italic was chosen for quotes to add elegance and emphasis, drawing attention to inspirational messages and enhancing the website's tranquil and mindful atmosphere.
+
+## Wireframes 
 
 
 

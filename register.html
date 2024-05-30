@@ -30,10 +30,13 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav aria-label="Main Navigation">
             <ul id="menu">
-                <li><a href="index.html" class="active" aria-label="This will redirect you to the Home page.">Home</a></li>
+                <li><a href="index.html" class="active" aria-label="This will redirect you to the Home page.">Home</a>
+                </li>
                 <li><a href="about.html" aria-label="This will redirect you to the About page.">About</a></li>
-                <li><a href="yogaandmeditation.html" aria-label="This will redirect you to the Yoga & Meditation page.">Yoga & Meditation</a></li>
-                <li><a href="workshops.html" aria-label="This will redirect you to the Workshops page.">Workshops</a></li>
+                <li><a href="yogaandmeditation.html"
+                        aria-label="This will redirect you to the Yoga & Meditation page.">Yoga & Meditation</a></li>
+                <li><a href="workshops.html" aria-label="This will redirect you to the Workshops page.">Workshops</a>
+                </li>
                 <li><a href="register.html" aria-label="This will redirect you to the Register page.">Register</a></li>
             </ul>
         </nav>
@@ -42,11 +45,16 @@
     <!-- Main Content -->
     <main>
         <section id="register">
-            <h2>Find Out More</h2>
+            <h2>Register Your Interest</h2>
+            <p>Thank you for your interest in our unique workshops! Please use the form below to provide your contact
+                details and select the themed workshops/retreats you’re interested in. Each workshop is designed to
+                deepen your connection with both your inner self and the natural elements, offering a transformative
+                experience tailored to various personal growth needs. Once submitted, a yoga instructor will personally
+                reach out to you regarding the workshops, and you will receive an email with an information pack on the
+                selected sessions.</p>
+                <br>
             <form id="register-form" method="GET" action="register-response.html" target="_blank">
-                <p>Are you ready to take the next step on your spiritual journey with us? Please register your interest
-                    by
-                    filling out your details below.</p>
+                <p>Please register your interest by filling out your details below.</p>
                 <label for="first-name">First Name</label>
                 <input type="text" name="first_name" id="first-name" class="text-input" required>
                 <br>
@@ -73,7 +81,8 @@
                         <input type="checkbox" name="all_workshops" id="all" value="all">
                     </div>
                 </div>
-                <button type="submit" class="register-button" aria-label="Register for more information on our Workshops and Retreats.">Register</button>
+                <button type="submit" class="register-button"
+                    aria-label="Register for more information on our Workshops and Retreats.">Register</button>
             </form>
         </section>
     </main>
