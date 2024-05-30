@@ -164,12 +164,33 @@ The site can be accessed via this [link.](https://kelseyjaneadams.github.io/sanc
 - Mulish Light 300 Italic was chosen for quotes to add elegance and emphasis, drawing attention to inspirational messages and enhancing the website's tranquil and mindful atmosphere.
 
 ## Wireframes 
-- [Home Page]()
-- [About Page]()
-- [Yoga & Meditation Page]()
-- [Workshops Page]()
-- [Register Page]()
+- [Home Page](https://github.com/kelseyjaneadams/sanctuary-project/blob/main/documentation/images/wireframe-home.png)
+- [About Page](https://github.com/kelseyjaneadams/sanctuary-project/blob/main/documentation/images/wireframe-about.png)
+- [Yoga & Meditation Page](https://github.com/kelseyjaneadams/sanctuary-project/blob/main/documentation/images/wireframe-yoga-meditation.png)
+- [Workshops Page](https://github.com/kelseyjaneadams/sanctuary-project/blob/main/documentation/images/wireframe-workshops.png)
+- [Register Page](https://github.com/kelseyjaneadams/sanctuary-project/blob/main/documentation/images/wireframe-register.png)
 
+## Testing
+
+## Deployment
+### Deployment to GitHub Pages
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the [GitHub repository](https://github.com/kelseyjaneadams/sanctuary-project), navigate to the Settings tab
+From the source section drop-down menu, select the Main Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://kelseyjaneadams.github.io/sanctuary-project/)
+
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/kelseyjaneadams/sanctuary-project.git`
+
+- Alternatively, if you use Gitpod, you can [click here](https://codeinstitute-ide.net/new#https://github.com/kelseyjaneadams/sanctuary-project), which will start the Gitpod workspace for you.
+
+## Future Improvements
 
 
 
