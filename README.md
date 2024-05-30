@@ -97,7 +97,7 @@ The site can be accessed via this [link.](https://kelseyjaneadams.github.io/sanc
 <img src="documentation/images/workshop-gallery.png">
 
 #### Register Form 
-- The "Find Out More" section includes a registration form that allows users to express their interest in the workshops and retreats offered at the studio.
+- The "Register" page includes a registration form that allows users to express their interest in the workshops and retreats offered at the studio.
 - The form collects basic information such as the user's first name, last name, and email address, which are necessary for registration and follow-up communication.
 - Users can select their areas of interest from the available workshops via checkboxes: Bonding With The Elements, Moon Meditations, Sun Yoga, Integrating Mind and Body, or an option to select All. This helps tailor the information and follow-up to their specific interests.
 - The form is styled to match the overall aesthetic of the website, with a colour scheme that contrasts well with the background for readability.
@@ -106,6 +106,10 @@ The site can be accessed via this [link.](https://kelseyjaneadams.github.io/sanc
 
 <img src="documentation/images/register-form.png">
 <img src="documentation/images/register-hover-effect.png">
+
+- The form also has a hover effect that changes color when hovering over an input field to enhance the user experience, making it more interactive and visually engaging. This subtle design feature helps guide users through the form, ensuring they can easily complete and submit their details.
+
+<img src="documentation/images/register-name-hover.png">
 
 ### Register Response Page
 
@@ -160,7 +164,11 @@ The site can be accessed via this [link.](https://kelseyjaneadams.github.io/sanc
 - Mulish Light 300 Italic was chosen for quotes to add elegance and emphasis, drawing attention to inspirational messages and enhancing the website's tranquil and mindful atmosphere.
 
 ## Wireframes 
-
+- [Home Page]()
+- [About Page]()
+- [Yoga & Meditation Page]()
+- [Workshops Page]()
+- [Register Page]()
 
 
 
