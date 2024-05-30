@@ -191,55 +191,56 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 - Alternatively, if you use Gitpod, you can [click here](https://codeinstitute-ide.net/new#https://github.com/kelseyjaneadams/sanctuary-project), which will start the Gitpod workspace for you.
 
 ## Future Improvements
+- I aim to improve my commit messages by writing them in the present tense.
 
+- I plan to create a workshop timetable in a calendar format to display when the classes are scheduled. Ideally, this calendar would allow users to book and pay for classes directly. However, I currently do not know how to write JavaScript.
 
+- I would like the gallery images on the workshop page to be animated, featuring one large image with thumbnails at the bottom, and automatically sliding to the next image. I am not yet aware of how to achieve this, whether it requires JavaScript or advanced CSS.
 
+## Credits 
 
+#### Content
 
+- Inspiration for the footer social media icons came from the CI Love Running [lesson.](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+4/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=first)
+- Inspiration for the gallery on the workshop page came from the CI Love Running [lesson.](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+4/courseware/e805068059af42af87681032aa64053f/391954f5ae8547e180a539c0d51e063c/)
+- Inspiration for the register form came from the CI Love Running [lesson.](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+4/courseware/e805068059af42af87681032aa64053f/fc8bba87c52a4d91b32d1c7c28b1d79b/)
 
+#### Media
 
+Home Page:
 
+- [Hero Image](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/hero-image.webp) - [Unsplash by Samuel Austin](https://unsplash.com/photos/selective-focus-photography-of-black-buddha-figurine-on-green-leaf-0tTA6cewPr8) 
+- [Benefits Image](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/benefits-image.webp) - [Unsplash by Jeremy Bishop](https://unsplash.com/photos/man-doing-yoga-on-rock-formation-P3gP2dZ5rnk)
+- [Testimonial Image](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/vogue.webp) - [CleanPNG](https://www.cleanpng.com/png-vogue-italia-logo-fashion-magazine-model-agency-1774979/)
 
+About Page:
+- [Image 1](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/outdoor-workshop-4.webp) - [Four Seasons](https://www.fourseasons.com/privatejet/journeys/timeless-encounters-2025/bali/)
+- [Image 2](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/outdoor-workshop-1.webp) - [Experience Retreats](https://www.experienceretreats.com/bali-retreat-center-ubud)
+- [Image 3](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/outdoor-workshop-2.webp) - [Flex Studio](https://flexhk.com/wp-content/uploads/2019/07/ark-retreat-bali-yoga-shala.jpg)
+- [Image 4](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/outdoor-workshop-3.webp) - [The Soulful lifestyle](https://thesoulfullifestyle.com.au/product/bali-retreat-yama/)
 
+Workshop Page:
+- [Gallery Image 1](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/gallery-image-1.webp) - [Pinterest](https://www.pinterest.co.uk/pin/escape-haven-is-the-leading-womens-retreat-in-bali-with-yoga-surf-fitness-and-spa-retreat-packages-book--62839357282164894/)
+- [Gallery Image 2](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/gallery-image-2.webp) - [International Traveller](https://www.internationaltraveller.com/asia/indonesia/bali/is-this-balis-most-relaxing-hideaway/)
+- [Gallery Image 3](https://github.com/kelseyjaneadams/sanctuary-project/blob/main/assets/images/gallery-image-3.webp) - [Jim Chapmna Communities](https://www.jimchapmancommunities.com/bali-training-retreat-k.html)
+- [Gallery Image 4](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/gallery-image-4.webp) - [Trip Advisor](https://www.tripadvisor.co.uk/Hotel_Review-g12997583-d13331284-Reviews-Udara_Bali_Yoga_Detox_Spa-Seseh_Bali.html)
+- [Gallery Image 5](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/gallery-image-5.webp) - [Breathe Dream Go](https://breathedreamgo.com/a-wellness-and-yoga-retreat-in-bali/)
+- [Gallery Image 6](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/gallery-image-6.webp) - [Unsplash Jared Rice](https://unsplash.com/photos/woman-in-black-tank-top-sitting-on-brown-wooden-dock-during-daytime-xce530fBHrk)
+- [Gallery Image 7](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/gallery-image-7.webp) - [Take Us To Bali](https://www.takeustobali.com/home/best-places-to-organise-a-yoga-retreat-in-bali)
+- [Gallery Image 8](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/gallery-image-8.webp) - [FR Store](https://frstore.onlineclearance2024.ru/content?c=yoga+classes+in+seminyak+bali&id=26)
+- [Gallery Image 9](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/gallery-image-9.webp) - [Bali Co Stay](https://www.baliecostay.com/activities/yoga-and-meditation/)
+- [Gallery Image 10](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/gallery-image-10.webp) - [The Mindful Practice](https://www.themindfullifepractice.com/about)
+- [Gallery Image 11](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/gallery-image-11.webp) - [Experience Retreats](https://www.experienceretreats.com/bali-retreat-center-ubud)
+- [Gallery Image 12](https://raw.githubusercontent.com/kelseyjaneadams/sanctuary-project/main/assets/images/gallery-image-12.webp) - [Book Retreats](https://bookretreats.com/blog/10-top-yoga-retreats-in-bali/)
 
+#### Tools 
 
+- [cooler](https://coolors.co/) was used to create the colour palette.
+- [CloudConvert](https://cloudconvert.com/webp-converter) - was used to convret all images on the site into webp.
 
-### Credits 
-https://www.experienceretreats.com/bali-retreat-center-ubud - Source for outdoor-workshop.webp, gallery-image-11.webp
+## Acknowledgements
 
-
-https://flexhk.com/wp-content/uploads/2019/07/ark-retreat-bali-yoga-shala.jpg - outdoor-workshop-2.webp
-
-https://breathedreamgo.com/a-wellness-and-yoga-retreat-in-bali/ - gallery-image-5.webp
-
-https://www.internationaltraveller.com/asia/indonesia/bali/is-this-balis-most-relaxing-hideaway/ - gallery-image-2.webp
-
-https://www.pinterest.co.uk/pin/escape-haven-is-the-leading-womens-retreat-in-bali-with-yoga-surf-fitness-and-spa-retreat-packages-book--62839357282164894/ - pinterest, Escape Haven is the author - gallery-image-1.webp
-
-https://thesoulfullifestyle.com.au/product/bali-retreat-yama/ - outdoor-workshop-3.webp
-
-https://www.tripadvisor.co.uk/Hotel_Review-g12997583-d13331284-Reviews-Udara_Bali_Yoga_Detox_Spa-Seseh_Bali.html - gallery-image-4.webp
-
-https://www.jimchapmancommunities.com/bali-training-retreat-k.html - gallery-image-3.webp
-
-https://bookretreats.com/blog/10-top-yoga-retreats-in-bali/ - gallery-image-12.webp 
-
-https://unsplash.com/photos/selective-focus-photography-of-black-buddha-figurine-on-green-leaf-0tTA6cewPr8 - Author Samuel Austin - unsplash - hero-image.webp
-
-https://unsplash.com/photos/man-doing-yoga-on-rock-formation-P3gP2dZ5rnk - Jeremy Bishop - unsplash - Benefits-image.webp
-
-https://unsplash.com/photos/woman-in-black-tank-top-sitting-on-brown-wooden-dock-during-daytime-xce530fBHrk - Author Jared Rice on Unsplash - gallery-image-6.webp 
-
-https://unsplash.com/photos/woman-in-black-tank-top-and-black-shorts-raising-her-hands-rcSrzEf3NLs - Mor Shani Author on unsplashed - workshop-section.webp
-
-https://www.takeustobali.com/home/best-places-to-organise-a-yoga-retreat-in-bali - gallery-image-7.webp
-
-https://frstore.onlineclearance2024.ru/content?c=yoga+classes+in+seminyak+bali&id=26 - gallery-image-8.webp
-
-https://www.baliecostay.com/activities/yoga-and-meditation/ - gallery-image-9.webp
-
-https://www.themindfullifepractice.com/about - gallery-image-10.webp 
-
-https://www.fourseasons.com/privatejet/journeys/timeless-encounters-2025/bali/ - outdoor-workshop-4.webp
-
-https://www.cleanpng.com/png-vogue-italia-logo-fashion-magazine-model-agency-1774979/ - vogue.webp
+- [Lulia Konovalova](https://github.com/IuliiaKonovalova), my mentor provided essential feedback and guidance throughout our sessions, significantly contributing to the progress and completion of my project.
+- [Guheshwara](https://www.instagram.com/guheshwara_/), my husband and coding buddy, for keeping me calm and sane, for testing the site and for explaining best practices that I wasnt aware of as a developer. 
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community for their support and help with any technical issues experienced.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his great CSS tutorials.

@@ -86,17 +86,92 @@ The website was tested on the following browsers: Chrome, Firefox, Safari.
 ## Validator Testing
 
 - ### HTML
-#### Home Page 
-- 
+#### Home Page  
+
+- No errors or warnings were found when passing through the official W3C validator
+
+<img src="documentation/images/html-validator-home.png">
 
 #### About Page
--
+
+- No errors or warnings were found when passing through the official W3C validator
+
+<img src="documentation/images/html-validator-about.png">
 
 #### Yoga & Meditation Page
-- 
+
+-- No errors or warnings were found when passing through the official W3C validator
+
+<img src="documentation/images/html-validator-yoga.png">
 
 #### Workshop Page
--
+
+- No errors or warnings were found when passing through the official W3C validator
+
+<img src="documentation/images/html-validator-workshops.png">
 
 #### Register Page
-- 
+
+- No errors or warnings were found when passing through the official W3C validator
+
+<img src="documentation/images/html-validator-register.png">
+
+### CSS
+
+- - No errors or warnings were found when passing through the official W3C CSS validator.
+
+<img src="documentation/images/css-validator.png">
+
+## Lighthouse Report
+
+- After using lighthouse in devtools I confirmed that the website is accessible, colours and fonts chosen are readable and is performing well.
+
+#### Home Page
+
+<img src="documentation/images/lighthouse-home.png">
+
+#### About Page
+
+<img src="documentation/images/lighthouse-about.png">
+
+#### Yoga & Meditation Page
+
+<img src="documentation/images/lighthouse-workshop.png">
+
+#### Workshop Page
+
+<img src="documentation/images/lighthouse-workshop.png">
+
+#### Register Page
+
+<img src="documentation/images/lighthouse-register.png">
+
+## Bugs
+### Solved Bugs
+
+1. The Sanctuary logo wouldn't fit on screens smaller than 390px due to the letter spacing and font-size.
+
+*Solution: Created a media query for screens with a max-width of 390px and reduced the font-size and letter spacing.*
+
+2. The navigation menu did not underline the current page because I forgot to update the active class on each page.
+
+*Solution: Updated the active class to match the correct page.*
+
+3. Images on the about page did not fill the entire section on desktop, leaving unpleasant white space on either side. This was due to setting a max-width for the divs containing the images.
+
+*Solution: Removed the max-width from the div elements containing the images.*
+
+4. The register form required all checkboxes to be ticked before submission. This happened because I forgot to remove the required attribute when changing from radio buttons to checkboxes.
+
+*Solution: Removed the required attribute from all checkboxes as none were required.*
+
+## Unsolved Bugs
+
+None
+
+## Mistakes
+- Occasionally, I mistakenly indicated in my commit messages that I was debugging the layout when I was actually just changing the layout.
+
+- My commit messages were all in the past tense due to the habit of describing what I had just done. I have learned that it is best practice to write them in the present tense, and I will adopt this in the future.
+
+- Initially, I pushed to the repository after each individual commit because I feared that something might happen to my workspace and I would lose my work. As I was entirely new to coding, I wasn't aware that this was not considered best practice. However, as I gained more confidence and experience, I realized that it is generally better to push several commits at once. This change in practice has allowed me to manage my commits more efficiently and align better with standard development workflows.

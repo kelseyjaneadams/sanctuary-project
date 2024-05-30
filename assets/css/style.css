@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     font-family: 'Mulish', sans-serif;
     color: #28282B;
 }
@@ -55,7 +54,7 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -76,7 +75,7 @@ nav {
 }
 
 /* Nav Toggle */
-#nav-toggle:checked~nav {
+#nav-toggle:checked ~ nav {
     display: block;
 }
 
@@ -90,13 +89,11 @@ nav {
 
 /* Main Content */
 main {
-    /* Make main element push the footer down by taking up any surplus space */
     flex: 1 0 auto;
     margin-top: 40px;
 }
 
 /* Home page */
-
 /* Hero section */
 #hero {
     height: 600px;
@@ -117,7 +114,7 @@ main {
     padding: 20px;
 }
 
-#cover-text>h2 {
+#cover-text > h2 {
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -126,7 +123,6 @@ main {
     font-weight: 300;
     letter-spacing: 1px;
     font-style: italic;
-
 }
 
 /* Benefits Section */
@@ -136,12 +132,6 @@ main {
     align-items: center;
     text-align: center;
     padding: 10px;
-}
-
-#benefits div {
-    flex-direction: column;
-    flex-wrap: wrap;
-
 }
 
 #benefits ul {
@@ -161,7 +151,6 @@ main {
 }
 
 /* Welcome section */
-
 #welcome {
     width: 100%;
     display: flex;
@@ -186,7 +175,6 @@ main {
 }
 
 /* Testimonial section */
-
 #testimonial {
     display: flex;
     flex-direction: column;
@@ -246,7 +234,7 @@ main {
     margin-right: auto;
 }
 
-#about>div {
+#about > div {
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -254,7 +242,7 @@ main {
     margin: 0 auto;
 }
 
-#about>div img {
+#about > div img {
     width: calc(33.33% - 10px);
     height: auto;
 }
@@ -305,7 +293,6 @@ main {
     width: 100%;
     position: relative;
     padding-bottom: 56.25%;
-    /* 16:9 aspect ratio */
     height: 0;
 }
 
@@ -381,7 +368,6 @@ main {
 }
 
 /* Workshops page */
-/* Why Us section */
 #why-us {
     justify-content: center;
     padding: 30px;
@@ -391,7 +377,8 @@ main {
     flex-direction: column;
 }
 
-#why-us h2, #why-us h3{
+#why-us h2,
+#why-us h3 {
     margin-bottom: 20px;
 }
 
@@ -400,7 +387,7 @@ main {
     gap: 30px;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    color:#ffffff
+    color: #ffffff;
 }
 
 .workshops ul {
@@ -449,14 +436,14 @@ main {
 }
 
 /* Register page */
-#register { 
+#register {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
     padding: 30px;
 }
 
-#register>h2 {
+#register > h2 {
     margin-bottom: 20px;
 }
 
@@ -465,18 +452,22 @@ main {
     padding: 30px;
 }
 
-#register-form>p {
+#register-form > p {
+    margin-bottom: 20px;
+}
+
+#register > p {
     margin-bottom: 20px;
 }
 
 .text-input {
     background: #fafafa;
-    color: #28282B; 
+    color: #28282B;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #28282B;
-    border-radius: 2px;   
+    border-radius: 2px;
     padding: 0 5px;
 }
 
@@ -488,7 +479,6 @@ main {
     color: #fafafa;
     border: none;
     font-size: 100%;
-
 }
 
 /* Response pages */
@@ -506,7 +496,6 @@ footer {
     background-color: #869096;
 }
 
-/* Newsletter form */
 footer h3 {
     font-family: 'Mulish', sans-serif;
     color: #28282B;
@@ -563,24 +552,23 @@ footer h3 {
 }
 
 #social-networks i:hover {
-    color: #fafafa
+    color: #fafafa;
 }
 
 /* Media query:phone screens (390px and down) */
 @media screen and (max-width: 390px) {
-    /* Home page */
     #logo {
         letter-spacing: 6.5px;
         font-size: 25px;
     }
 
-    #cover-text>h2 {
+    #cover-text > h2 {
         font-size: large;
     }
 }
+
 /* Media query: large or landscape phones (576px up) */
 @media screen and (min-width: 576px) {
-   /* Workshop page */
     .gallery-images {
         column-count: 2;
         column-gap: 0;
@@ -588,31 +576,27 @@ footer h3 {
 }
 
 @media screen and (max-width: 768px) {
-    /* About page */
-    #about>div {
+    #about > div {
         flex-direction: column;
         gap: 10px;
     }
 
-    #about>div img {
+    #about > div img {
         width: 100%;
         max-width: 100%;
     }
 
-    /* Yoga & Meditation page */
     .yoga-types {
         flex-wrap: wrap;
     }
 
-    /* Workshops page */
     .workshops {
         flex-direction: column;
     }
 }
 
-/* Media query: tablets and lager (768px and up) */
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
     nav {
         display: block;
         position: relative;
@@ -625,31 +609,25 @@ footer h3 {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
         font-size: 12px;
     }
 
     h1 {
-        /* Make logo smaller so navbar pages can be seen */
         font-size: 1.8rem;
         letter-spacing: 9px;
-        /* Make the logo more centered vertically */
-        padding-top: 10px
+        padding-top: 10px;
     }
 
     .nav-toggle-label {
         display: none;
     }
 
-    /* Main Content */
     main {
-        /* Push main content down to accomodate the logo padding */
         margin-top: 51px;
     }
 
-    /* Home Page */
-    /* Benefits section */
     #benefits {
         flex-direction: unset;
         padding-top: 30px;
@@ -675,21 +653,20 @@ footer h3 {
         padding: 20px 10%;
     }
 
-    /* Workshop page */
     .gallery-images {
         column-count: 3;
         column-gap: 0;
     }
 
-    /* Register page */
     #register {
         max-width: 900px;
-        margin: auto
+        margin: auto;
     }
+
     .text-input:hover {
         border-color: #c6f9e2;
     }
-    
+
     .register-button:hover {
         background-color: #31432f81;
         color: #28282B;
@@ -698,8 +675,6 @@ footer h3 {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
-    /* Nav section */
     #menu a:hover {
         border-bottom: 1px solid #28282B;
     }
@@ -709,12 +684,10 @@ footer h3 {
         flex: 1 1 100%;
     }
 
-    /* Home page */
     .vogue-image {
         max-width: 400px;
     }
 
-    /* Benefits section */
     #benefits .benefits-left h3 {
         font-size: x-large;
         padding-top: 50px;
@@ -724,28 +697,25 @@ footer h3 {
         font-size: x-large;
     }
 
-    /* Map section */
     .map-content {
         flex-direction: column;
         align-items: center;
         padding: 20px 5%;
     }
 
-    /* Yoga & Meditation page */
     #yoga-meditation {
-    justify-content: center;
-    padding: 30px;
-    max-width: 1600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        max-width: 1600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .yoga-types {
         flex-wrap: nowrap;
     }
-    
-    /* Workshops page */
+
     .workshops div {
         width: 48%;
     }
@@ -754,12 +724,10 @@ footer h3 {
         column-count: 4;
         column-gap: 0;
     }
-
 }
 
 /* Larger desktop screens */
-@media screen and (min-width: 1200px){
-    /* Yoga & Meditation page */
+@media screen and (min-width: 1200px) {
     .yoga-types {
         flex-wrap: nowrap;
     }
